@@ -1,7 +1,7 @@
 package main
 
 import (
-	"my-go-project/flowcontrol"
+	"my-go-project/moretypes"
 )
 
 func main() {
@@ -34,5 +34,11 @@ func main() {
 	// flowcontrol.SwitchEvaluaionOrder()
 	// flowcontrol.SwitchWithNoCondition()
 	// flowcontrol.Defer()
-	flowcontrol.DeferMulti()
+	// flowcontrol.DeferMulti()
+
+	// moretypes.Pointers()
+	// moretypes.Structs()
+	// moretypes.StructField()
+	// moretypes.StructPointers()
+	moretypes.StructLiterals()
 }
