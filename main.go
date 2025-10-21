@@ -40,5 +40,7 @@ func main() {
 	// moretypes.Structs()
 	// moretypes.StructField()
 	// moretypes.StructPointers()
-	moretypes.StructLiterals()
+	// moretypes.StructLiterals()
+	// moretypes.Array()
+	moretypes.Slices()
 }
