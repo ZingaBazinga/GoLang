@@ -1,8 +1,6 @@
 package main
 
-import (
-	"my-go-project/moretypes"
-)
+import "my-go-project/week-1/exercise-2/moretypes"
 
 func main() {
 	// basics.Packages()
