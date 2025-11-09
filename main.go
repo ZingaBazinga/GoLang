@@ -1,6 +1,8 @@
 package main
 
-import "my-go-project/week-1/exercise-2/moretypes"
+import (
+	exercise3 "my-go-project/week-1/exercise-3"
+)
 
 func main() {
 	// basics.Packages()
@@ -19,7 +21,6 @@ func main() {
 	// basics.TypeInference()
 	// basics.Constants()
 	// basics.NumericConstants()
-
 	// flowcontrol.For()
 	// flowcontrol.ForContinued()
 	// flowcontrol.ForIsGoesWhile()
@@ -33,7 +34,6 @@ func main() {
 	// flowcontrol.SwitchWithNoCondition()
 	// flowcontrol.Defer()
 	// flowcontrol.DeferMulti()
-
 	// moretypes.Pointers()
 	// moretypes.Structs()
 	// moretypes.StructField()
@@ -58,5 +58,7 @@ func main() {
 	// moretypes.ExerciseMaps()
 	// moretypes.FunctionValues()
 	// moretypes.FunctionClosures()
-	moretypes.ExerciseFibonacciClosure()
+	// moretypes.ExerciseFibonacciClosure()
+
+	exercise3.TempConvertor()
 }
