@@ -1,7 +1,7 @@
 package main
 
 import (
-	exercise3 "my-go-project/week-1/exercise-3"
+	week2 "my-go-project/week-2"
 )
 
 func main() {
@@ -60,5 +60,5 @@ func main() {
 	// moretypes.FunctionClosures()
 	// moretypes.ExerciseFibonacciClosure()
 
-	exercise3.TempConvertor()
+	week2.Week2()
 }
